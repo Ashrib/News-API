@@ -1,0 +1,32 @@
+#main{
+    height: calc(100vh);
+    width: calc(100vw);
+    overflow: scroll;
+}
+#bitcoin, #apple, #tech-crunch{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: rgb(151, 151, 151);
+}
+.cards{
+    margin-bottom: 10px;
+    width: 400px;
+}
+.card-img-top{
+    width: 100%;
+}
+.author-heading{
+    color: rgb(250, 110, 110);
+}
+.published-time{
+    color: gray;
+
+}
+.description-text{
+    margin-top: 10px;
+}
+.source-text{
+    color: rgb(120, 120, 192);
+
+}
